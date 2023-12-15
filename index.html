@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>States JS</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <label for="options">Select a state: </label>
+          <select id="options" onchange="showCities();">
+            <option value="0">New York</option>
+            <option value="1">California</option>
+            <option value="2">Texas</option>
+          </select>
+
+        <div id="cityForm" style="display: none;">
+          <label for="cities">Select a city: </label>
+            <select id="cities" onchange="showNeighborhoods();">
+              <option value="">Select city</option>
+              <option value="0">New York City</option>
+              <option value="1">Albany</option>
+              <option value="2">Buffalo</option>
+            </select>
+        </div>
+
+        <div id="neighborhoodForm" style="display: none;">
+          <label for="neighborhoods">Select a neighborhood: </label>
+            <select id="neighborhoods">
+              <option value="">Select neighborhood: </option>
+            </select>
+        </div>
+      </form>
+    </div>
+	<script src="index.js"></script>
+  </body>
+</html>

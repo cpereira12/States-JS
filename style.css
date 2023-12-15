@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    padding: 20px 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    background: linear-gradient(#e66465, #9198e5);
+    font-size: 24px;
+    font-family:'Lucida Sans';
+}
+
